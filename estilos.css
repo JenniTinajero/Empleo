@@ -1,0 +1,331 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #F5F5F5;
+	font-family: sans-serif;
+
+}
+/*LOGIN*/
+.login-box{
+	width: 320px;
+	height: 400px;
+	background: #691C32;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 50px);
+}
+
+.text{
+	margin: 0;
+	padding: 60px 0 20px;
+	text-align: center;
+	font-size: 25px;
+	;
+
+}
+
+.form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.form input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #F35F5F;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.form input[type="submit"]:hover{
+	opacity: 1%;
+}
+
+.form a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;	
+}
+
+.form a:hover{
+	color: #fff;
+}
+
+
+
+
+/*REGISTRO*/
+
+.form-box{
+	width: 340px;
+	height: 480px;
+	background: #691C32;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 30px;
+}
+
+.ave{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 50px);
+}
+
+.text2{
+	margin: 0;
+	padding: 60px 0 20px;
+	text-align: center;
+	font-size: 25px;
+	;
+
+}
+
+.form-regis input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form-regis input[type="text"],
+.form-regis input[type="password"],
+.form-regis input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.form-regis input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #F35F5F;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.form-regis input[type="submit"]:hover{
+	opacity: 1%;
+}
+
+.form-regis a{
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;	
+}
+
+.form-regis a:hover{
+	color: #fff;
+}
+
+
+
+
+
+/*CABECERA-ENLACES	index*/ 
+header{
+	display: flex;
+	height: 70px;
+	background: #691c32;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}	
+
+.chalco-logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo-img{
+	margin-right: 10px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+}
+
+nav a:hover{
+	color: #AB7C3C;
+}
+
+.buscador{
+	width: 600px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 30px;
+
+}
+.text-busca{
+	margin: 0;
+	padding: 10px 0 20px;
+	text-align: center;
+	font-size: 30px;
+	;
+
+}
+
+.buscador input{
+	width: 50%;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.buscador input[type="text"]{
+	border: none;
+	background: #F5EBEB;	
+	outline: none;
+	height: 40px;
+	color: #black;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.buscador input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #F35F5F;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.buscador input[type="submit"]:hover{
+	color: #black;
+}
+
+
+
+/*EMPRESA-SINGUP*/
+.container {
+    margin-top: 100px;
+    background: #691C32;
+}
+
+.contact-form {
+    list-style-type: none;
+}
+
+.contact-form li div {
+    margin-bottom: 2.5em;
+}
+
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1.4em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 3px solid slategrey;
+    background: #691C32;
+    font-family: 'Roboto', sans-serif;
+    color: lightgrey;
+    font-weight: 700;
+    font-size: 16px;
+    transition: ease-in-out 0.25s;
+}
+
+.contact-form ::-webkit-input-placeholder {
+    font-size: 12px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contact-form label {
+    font-size: 12px;
+    color: slategrey;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form input[type="submit"]:focus {
+    outline: none;
+    resize: none;
+    border-bottom: 3px solid #db4d57;
+}
+
+.contact-form input[type="submit"] {
+    color: black;
+    background: rgba(34, 34, 34, 0.0);
+    border: 3px solid #db4d57;
+    height: 74px;
+    width: 200px;
+    float: right;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out 0.25s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background: #db4d57;
+    color: lightgrey;
+}
+
+
+
+
+
+
+/*PUBLICAR VACANTE*/
